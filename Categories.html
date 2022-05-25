@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Galactic Cinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-right-align">
+  <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href=""  active class="w3-bar-item w3-button w3-hide-small w3-hover-white">Categories</a>
+    <a href="Upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Upcoming</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="Feedback.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Feedback</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b></b></h4>
+  <a class="w3-bar-item w3-button w3-hover-blue" href="Horror_Movie.html">Horror</a>
+  <a class="w3-bar-item w3-button w3-hover-red" href="Romance_Movie.html">Romance Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-purple" href="Sci-Fi_Movie.html">Sci-Fi Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-yellow" href="Comedy_Movie.html">Comedy Movies</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Horror</h1>
+      <p>Horror is a film genre that seeks to elicit fear or disgust in its audience for entertainment purposes. Horror films often explore dark subject matter and may deal with transgressive topics or themes. Broad elements include <a href="https://en.wikipedia.org/wiki/Monsters" style="color:blue">monsters</a>, <a href="https://en.wikipedia.org/wiki/Apocalypse" style="color:blue">apocalyptic events</a>, and religious or folk beliefs</p>
+      <div class="row">
+        <img src="Images/h1.jpg" alt="horror category" =height="250" width="270">
+        <img src="Images/h2.jpg" alt="horror category" =height="250" width="270">
+        </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Romance</h1>
+      <p>The romance movie genre is a type of movie that focuses on love and relationships. They are most often about romantic attraction, love, and sexual relationships between two people.
+
+Themes in these movies typically include such topics as gender roles, emotional intimacy, affectionate bonds, or marriage; they also explore male-female dynamics in terms of power and freedom.
+
+Many times a couple will fall in love but then something happens to keep them apart (i.e., they get separated by war), but there always seems to be some hope for their relationship at the end of the film.</p>
+<div class="row">
+  <div class="column">
+    <img src="Images/r1.jpg" alt="romance" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/r2.jpg" alt="romance" style="width:100%">
+  </div>
+
+
+
+    </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Science Fiction</h1>
+      <p>Sci-fi often deals with the theme of technology and its effects on society. Sci-fi movies are a great way to explore what it would be like if there were no rules or limitations to the advancements in science, engineering, and medicine.
+
+Science fiction is one of the most popular genres in film. Science fiction films are characterized by futuristic settings, advanced technology, and fantastic imagery.
+
+Most sci-fi movies have a certain tone to them that sets them apart from other genres such as horror or drama.
+
+The sci-fi genre of film has been around for a long time. The first-ever sci-fi movie was made in 1902, and since then the genre has grown exponentially to become one of the most popular genres today.
+
+Sci-fi movies are typically set in futuristic worlds where there is advanced technology and science involved with some type of imaginative plotline.
+
+The term “science fiction” was coined by author<a href="https://en.wikipedia.org/wiki/H._G._Wells" style="color:blue"> H. G. Wells</a></b> who published his novel <a href="https://en.wikipedia.org/wiki/The_War_Of_The_Worlds" style="color:blue">“The War of the Worlds”</a> in 1897. In this book, he created an invasion from Mars that was written as if it really happened; many believe this is when the idea for what would be called science fiction was born.
+
+The Sci-Fi genre is for movies that explore the future or take place in outer space. This category of the film has been around since 1924 with <a href="https://en.wikipedia.org/wiki/Fritz_Lang" style="color:blue">Fritz Lang</a>’s <a href="https://en.wikipedia.org/wiki/Metropolis_(1927_film)" style="color:blue">“Metropolis.”</a></p>
+<div class="row">
+  <div class="column">
+    <img src="Images/s1.jpg" alt="sci-fi" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/s2.jpg" alt="sci-fi" style="width:100%">
+  </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Comedy</h1>
+      <p>Comedy movies are usually satirical in nature and often poke fun at societal norms or other identifiable groups of people. In order for something to be considered a comedy it must have an intentional attempt at being humorous by any means necessary; whether it’s through dialogue, visual gags, or even physical action.</p>
+
+      <div class="row">
+        <div class="column">
+          <img src="Images/c1.jpg" alt="comedy" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="Images/c2.jpg" alt="comedy" style="width:100%">
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+<p>Copyright @Galactico 2022</p>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

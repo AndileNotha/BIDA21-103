@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Galactic Cinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-right-align">
+  <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="Categories.html"  class="w3-bar-item w3-button w3-hide-small w3-hover-white">Categories</a>
+    <a href="Upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Upcoming</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="Feedback.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Feedback</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Top Movies BY Genre</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-blue" href="Horror_Movie.html">Horror Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-red" href="Romance_Movie.html">Romance Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-purple" href="Sci-Fi_Movie.html">Sci-Fi Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-yellow" href="Comedy_Movie.html">Comedy Movies</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">The UnHoly</h1>
+      <p><b>ABOUT</b>--Alice, a girl with hearing impairment, is able to hear, speak and even heal the ill after having visions of the Virgin Mary. But when a journalist probes into the matter, he unearths a conspiracy.
+></p>
+<p>Release date: April 2, 2021 (USA)</p>
+<p>Director: Evan Spiliotopoulos</p>
+<p>Box office: 30.8 million USD</p>
+<p>Budget: 10 million USD</p>
+      <div class="row">
+        <img src="Images/unholy.jpg" alt="horror " =height="250" width="270">
+        <img src="Images/unholy2.jpg" alt="horror" =height="250" width="270">
+        </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">The Nun</h1>
+      <p><b>ABOUT</b>--A priest and a novice arrive in Romania to investigate the death of a young nun. However, things take an ugly turn after they encounter a supernatural force.
+</p>
+<p>Release date: September 7, 2018 (USA)</p>
+<p>Director: Corin Hardy</p>
+<p>Box office: 365.6 million USD</p>
+<p>Budget: 22 million USD</p>
+<div class="row">
+  <div class="column">
+    <img src="Images/nun1.jpg" alt="nun" =height= "250" width="270">
+  </div>
+  <div class="column">
+    <img src="Images/nun2.jpg" alt="nun" =height="250" width="270">
+  </div>
+
+
+
+    </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Alien:Covenant</h1>
+      <p><b>ABOUT</b>--The crew of a colony ship, Covenant, receive a radio transmission from a habitable planet. However, they encounter deadly aliens while investigating the planet and try to escape.</p>
+<p>Release date: May 11, 2017</p>
+<p>Director: Ridley Scott</p>
+<p>Film series: Alien</p>
+<p>Box office: 240.9 million USD</p>
+<div class="row">
+  <div class="column">
+    <img src="Images/a1.jpg" alt="alien" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/a2.jpg" alt="alien" style="width:100%">
+  </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Witch</h1>
+      <p><b>ABOUT</b>--In the New England of the 17th century, a banished Puritan family sets up a farm by the edge of a huge remote forest where no other family lives. Soon, sinister forces then start haunting them.
+</p>
+<p>Release date: October 18, 2015</p>
+<p>Director: Robert Eggers</p>
+<p>Budget: 4 million USD</p>
+<p>Box office: 40.4 million USD</p>
+
+      <div class="row">
+        <div class="column">
+          <img src="Images/w1.jpg" alt="witch" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="Images/w2.jpg" alt="witch" style="width:100%">
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+<p>Copyright @Galactico 2022</p>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

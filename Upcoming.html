@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Galactic Cinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-right-align">
+  <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="Categories.html"  class="w3-bar-item w3-button w3-hide-small w3-hover-white">Categories</a>
+    <a href="Upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Upcoming</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="Feedback.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Feedback</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Top Movies BY Genre</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-blue" href="Horror_Movie.html">Horror Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-red" href="Romance_Movie.html">Romance Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-purple" href="Sci-Fi_Movie.html">Sci-Fi Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-yellow" href="Comedy_Movie.html">Comedy Movies</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Black Panther:Wakanda Forever</h1>
+      <p><b>ABOUT</b>--Black Panther: Wakanda Forever is an upcoming American superhero film based on the Marvel Comics character Black Panther. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Black Panther and the 30th film in the Marvel Cinematic Universe.
+<p>Release date: November 11, 2022</p>
+<p>Director: Ryan Coogler</p>
+<p>Producer: Kevin Feige</p>
+</p>
+
+<iframe width="300" height="280" src="Videos\wakanda.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Avata:Way Of Water</h1>
+      <p><b>About</b>-Avatar: The Way of Water is an upcoming American epic science fiction film directed by James Cameron and produced by 20th Century Studios.It is the second film in Cameron's Avatar franchise, following Avatar (2009)..Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.Set more than a decade after the events of the first film, Avatar: The Way of Water begins to tell the story of the Sully family, the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.</p>
+<p>Release date: September 7, 2018 (USA)</p>
+<p>Director: Corin Hardy</p>
+<p>Box office: 365.6 million USD</p>
+<p>Budget: 22 million USD</p>
+<iframe width="300" height="280" src="Videos\Avatar.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+    </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Jurassic Park:Domination</h1>
+      <p><b>ABOUT</b>--Jurassic World Dominion is an upcoming American science fiction adventure film directed by Colin Trevorrow, who wrote the screenplay with Emily Carmichael, based on a story by Trevorrow and his writing partner, Derek Connolly. It is the sequel to Jurassic World: Fallen Kingdom (2018), and is the sixth installment in the Jurassic Park franchise. It is the final film in the Jurassic World trilogy, and the conclusion to the storyline started in the original Jurassic Park trilogy.The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.Four years after the Lockwood estate incident, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine once and for all whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.</p>
+      <p>Release date: June 9, 2022</p>
+      <p>Director: Colin Trevorrow</p>
+      <p>Budget: 165 million USD</p>
+    <iframe width="300" height="280" src="Videos\JPD.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Thor:Love & Thunder</h1>
+       <p><b>ABOUT</b>-Thor: Love and Thunder is an upcoming American superhero film based on the Marvel Comics character Thor, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is intended to be the direct sequel to Thor: Ragnarok and the 29th film in the Marvel Cinematic Universe
+        .Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster—who has become the Mighty Thor—to stop Gorr the God Butcher from eliminating all gods.
+        </p>
+        <p>Release date: July 8, 2022</p>
+<p>Director: Taika Waititi</p>
+<p>Producer: Kevin Feige</p>
+
+<iframe width="300" height="250" src="Videos\Thor.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+<p>Copyright @Galactico 2022</p>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

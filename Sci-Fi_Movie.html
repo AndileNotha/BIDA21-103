@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Galactic Cinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-right-align">
+  <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="Categories.html"  class="w3-bar-item w3-button w3-hide-small w3-hover-white">Categories</a>
+    <a href="Upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Upcoming</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="Feedback.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Feedback</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Top Movies BY Genre</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-blue" href="Horror_Movie.html">Horror Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-red" href="Romance_Movie.html">Romance Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-purple" href="Sci-Fi_Movie.html">Sci-Fi Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-yellow" href="Comedy_Movie.html">Comedy Movies</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Spiderman:No Way Home</h1>
+      <p><b>ABOUT</b>--Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity. However, when the spell he casts gets corrupted, several unwanted guests enter their universe.
+</p>
+<p>Release date: December 17, 2021</p>
+<p>Director: Jon Watts</p>
+<p>Box office: 1.893 billion USD</p>
+<p>Budget: 200 million USD</p>
+      <div class="row">
+        <img src="Images/spidy1.jpg" alt="spiderman " =height="250" width="270">
+        <img src="Images/spidy2.jpg" alt="spiderman" =height="250" width="270">
+        </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Blade Runner</h1>
+      <p><b>ABOUT</b>--K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.
+</p>
+<p>Release date: October 5, 2017</p>
+<p>Director: Denis Villeneuve</p>
+<p>Cinematography: Roger Deakins</p>
+<p>Box office: 259.3 million USD</p>
+<div class="row">
+  <div class="column">
+    <img src="Images/blade1.jpg" alt="blade" =height= "250" width="270">
+  </div>
+  <div class="column">
+    <img src="Images/blade2.jpg" alt="blade" =height="330" width="300">
+  </div>
+
+
+
+    </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Dune</h1>
+      <p><b>ABOUT</b>--Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.
+</p>
+<p>Release date: October 22, 2021</p>
+<p>Director: Denis Villeneuve</p>
+<p>Box office: 400.7 million USD</p>
+<div class="row">
+  <div class="column">
+    <img src="Images/dune1.jpg" alt="dune" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/dune2.jpg" alt="dune" style="width:100%">
+  </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Alita:Battle Angel</h1>
+      <p><b>ABOUT</b>--Alita, a battle cyborg, is revived by Ido, a doctor, who realises that she actually has the soul of a teenager. Alita then sets out to learn about her past and find her true identity.
+</p>
+<p>Release date: February 14, 2019</p>
+<p>Director: Robert Rodriguez</p>
+<p>Box office: 405 million USD</p>
+<p>Adapted from: Battle Angel Alita</p>
+<p>Budget: 170 million USD</p>
+
+      <div class="row">
+        <div class="column">
+          <img src="Images/alita.jpg" alt="alita" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="Images/alita2.jpg" alt="alita" style="width:100%">
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+<p>Copyright @Galactico 2022</p>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

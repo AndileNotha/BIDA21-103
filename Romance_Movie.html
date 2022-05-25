@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Galactic Cinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-right-align">
+  <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href=""  active class="w3-bar-item w3-button w3-hide-small w3-hover-white">Categories</a>
+    <a href="Upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Upcoming</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="Feedback.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Feedback</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b></b></h4>
+  <a class="w3-bar-item w3-button w3-hover-blue" href="Horror_Movie.html">Horror Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-red" href="Romance_Movie.html">Romance Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-purple" href="Sci-Fi_Movie.html">Sci-Fi Movies</a>
+  <a class="w3-bar-item w3-button w3-hover-yellow" href="Comedy_Movie.html">Comedy Movies</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">The In-Between</h1>
+      <p><b>ABOUT</b>--Tessa doesn't believe she deserves her own love story until she meets Skylar, a true romantic. When a car accident kills Skylar, Tessa searches for answers and thinks that Skylar is trying to connect with her from the afterworld. Tessa tries to contact Skylar one last time so their love story can have the ending it deserves.
+</p>
+<p>Initial release: February 11, 2022</p>
+<p>Director: Arie Posin</p>
+<p>Screenplay: Marc Klein</p>
+<p>Producers: Joey King, Dan Spilo, Robbie Brenner, Andrew Deane</p>
+        <div class="row">
+        <img src="Images/b1.jpg" alt="in between" =height="250" width="270">
+        <img src="Images/b2.jpg" alt="in between" =height="250" width="270">
+        </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Fifty Shades Freed</h1>
+      <p><b>ABOUT</b>--Believing they've left behind the shadowy figures from the past, billionaire Christian Grey and his new wife Anastasia fully embrace their inextricable connection and shared life of luxury. But just as the Greys begin to step into their new roles, sinister events come to light and jeopardise their happy ending before it even begins.
+</p>
+<p>Release date: February 9, 2018</p>
+<p>Director: James Foley</p>
+<p>Box office: 372 million USD</p>
+<p>Adapted from: Fifty Shades Freed</p>
+<p>Budget: 55 million USD</p>
+        <div class="row">
+  <div class="column">
+    <img src="Images/f1.jpg" alt="50 shades" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/f2.jpg" alt="50 shades" style="width:100%">
+  </div>
+</div>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Crazy Stupid Love</h1>
+      <p><b>ABOUT</b>--Cal, a middle-aged man, is heartbroken when his wife asks for a divorce. However, to get over his loss, he starts picking up women at a bar on the insistence of his new-found friend, Jacob.
+</p>
+<p>Release date: July 19, 2011</p>
+<p>Directors: Glenn Ficarra, John Requa</p>
+<p>Screenplay: Dan Fogelman</p>
+<p>Box office: 145 million USD</p>
+        <div class="row">
+  <div class="column">
+    <img src="Images/csl1.jpg" alt="sci-fi" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/csl2.jpg" alt="sci-fi" style="width:100%">
+  </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-full w3-container">
+      <h1 class="w3-text-black">Comedy</h1>
+      <p><b>ABOUT</b>--As Sophie and her family are busy preparing for her wedding, she secretly invites three men, who were her mother's lovers in the past, with the hope that one of them is her father.
+</p>
+<p>Release date: July 10, 2008</p>
+<p>Director: Phyllida Lloyd</p>
+<p>Screenplay: Catherine Johnson</p>
+<p>Box office: 609.8 million USD</p>
+      <div class="row">
+        <div class="column">
+          <img src="Images/m1.jpg" alt="mama mia" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="Images/m2.jpg" alt="mama mia" style="width:100%">
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+<p>Copyright @Galactico 2022</p>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
